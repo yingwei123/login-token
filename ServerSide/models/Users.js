@@ -8,21 +8,21 @@ const mongoose = require('mongoose');
 
    firstname: {
      type:String,
-
+     default :"",
      trim:true
    },
 
    lastname:{
      type:String,
-
+     default :"",
      trim:true
 
    },
 
    email:{
      type :String,
-     unique: true,
-     required:true,
+  default :"",
+
 
      trim:true
    },
@@ -30,7 +30,8 @@ const mongoose = require('mongoose');
 
    password:{
      type : String,
-     require: true
+     default :"",
+
    }
 
 

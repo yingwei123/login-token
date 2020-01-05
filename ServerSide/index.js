@@ -6,7 +6,8 @@ const startAll = async () =>  {
   try {
     await mongoose.connect(
       config.MONGODB_URI,
-      {useNewUrlParser:true,
+      {
+        useNewUrlParser:true,
       useUnifiedTopology: true
     }
     );
