@@ -3,6 +3,8 @@ Open up Node ->
 Change directory to ServerSide -> npm start
 -> open up a new tab and Change directory to client -> npm start
 
+#I used nodemon, mongoose, express, bcrypt , body-parser, mongoose-timestamp
+
 #Users Model
 firstname : Firstname of user
 lastname : Lastname of user
